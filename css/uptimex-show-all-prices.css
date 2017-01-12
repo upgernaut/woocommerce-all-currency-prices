@@ -1,0 +1,11 @@
+.woocssShowBlock {
+	border: 1px solid gray;
+	padding: 10px;
+	font-size: 14px;
+	color: gray;
+	position: absolute;
+	background: white;
+	z-index: 1;
+	display: none;
+}
+
