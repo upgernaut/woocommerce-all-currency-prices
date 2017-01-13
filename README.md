@@ -7,3 +7,7 @@
 * The main product price shown on the page is the chosen currency. The list of prices shows when the user hovers on the price.
 * The styling of the price box is easily customizable using CSS. 
 * Updates and changes to the plugin are welcomed. If you have a proper edited code, feel free to fork the repository and make your changes.
+
+##### Screenshot
+
+![N](https://raw.githubusercontent.com/uptimex/WooCommerce-All-Currency-Prices/master/screenshot.jpg)
