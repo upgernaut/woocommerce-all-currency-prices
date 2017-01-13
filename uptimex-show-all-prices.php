@@ -1,8 +1,8 @@
 <?php
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 /*
-Plugin Name: Uptimex Show All Prices In Single Product Page
-Description: On hover, show all currencies prices in single product page
+Plugin Name: WooCommerce All Currency Prices
+Description: This plugin shows the price of a product in all available currencies in a WooCommerce single product page.
 Author: Aram Dekart
 Author URI: https://github.com/uptimex
 Plugin URI: https://github.com/uptimex/uptimex-show-all-prices
@@ -56,6 +56,6 @@ function woocss_scripts_and_styles()
     // Register the script like this for a plugin:
     wp_register_script( 'uptimex-wooss-script', plugins_url( '/js/uptimex-show-all-prices.js', __FILE__ ) );
 
-	wp_enqueue_script( 'uptimex-wooss-script', false, array( 'uptimex-jquery' ), false, true );		
+	wp_enqueue_script( 'uptimex-wooss-script', false, false, false, true );		
 }
 add_action( 'wp_enqueue_scripts', 'woocss_scripts_and_styles' );
