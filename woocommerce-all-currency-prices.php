@@ -3,9 +3,8 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 /*
 Plugin Name: WooCommerce All Currency Prices
 Description: This plugin shows the price of a product in all available currencies in a WooCommerce single product page.
-Author: Aram Dekart
-Author URI: https://github.com/uptimex
-Plugin URI: https://github.com/uptimex/uptimex-show-all-prices
+Author: Aram Khachikyan
+Author URI: https://aramkhachikyan.com
 */
 
 
